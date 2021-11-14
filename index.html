@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <meta
+      name="keywords"
+      content="Sorocaba, Gafisa, Botafogo, Rio de Janeiro, lançamentos, imóveis"
+    />
+    <link rel="shortcut icon" href="assets/img/logo.webp" type="image/x-icon" />
+    <meta
+      name="description"
+      content="O We Sorocaba Botafogo é uma ótima opção para quem busca empreender ou morar perto das praias do Flamengo e de Botafogo.
+       O residencial dispõe de inúmeras formas de lazer, conforto e segurança."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>We Botafogo</title>
+    <style>
+      .hero {
+        height: 600px;
+        background: var(--main-bg-color);
+      }
+      .hero * {
+        color: var(--branco);
+      }
+      .hero .container {
+        height: 100%;
+      }
+      .hero img {
+        height: 500px;
+        object-fit: cover;
+      }
+      .hero .titulo {
+        color: var(--branco);
+      }
+    </style>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="container">
+        <a href="index.html">
+          <img src="assets/img/logo.webp" alt="we sorocaba" class="logoImg" />
+        </a>
+
+        <nav>
+          <button class="btn-mobile">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="29"
+              fill="none"
+              viewBox="0 0 40 29"
+            >
+              <path
+                fill="#7A7A7A"
+                d="M0 28.571h40v-5.714H0v5.714zM0 0v5.714h40V0H0zm0 17.143h40v-5.714H0v5.714z"
+              />
+            </svg>
+          </button>
+          <ul class="nav-menu">
+            <li><a href="index.html" class="ativo">Home</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="#na-midia">Na mídia</a></li>
+            <li><a href="privacidade.html">Privacidade</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- hero -->
+    <section class="hero">
+      <div class="container grid">
+        <div class="content">
+          <h1 class="titulo">
+            We Sorocaba - Empreendimento moderno e diferenciado
+          </h1>
+          <p>
+            O <strong>We Sorocaba Botafogo</strong> é uma ótima opção para quem
+            busca empreender ou morar perto das praias do Flamengo e de
+            Botafogo. O residencial dispõe de inúmeras formas de lazer, conforto
+            e segurança.
+          </p>
+
+          <a href="<?= $whatsapp ?>" class="btn btn_light"
+            >Saber mais sobre o imóvel</a
+          >
+        </div>
+        <img
+          src="assets/img/fachada.webp"
+          alt="fachada We Sorocaba"
+          class="img"
+        />
+      </div>
+    </section>
+    <!-- sobre -->
+    <div class="sobre container grid pd" id="sobre">
+      <img src="assets/img/bairro.webp" alt="Bairro do Botafogo" class="img" />
+      <div class="content">
+        <h2 class="titulo">Sobre o We Botafogo</h2>
+        <p>
+          Que tal morar ou investir em um condomínio residencial moderno e
+          sofisticado? O <strong>We Sorocaba</strong> é o mais novo projeto da
+          construtora Gafisa, que preza pela sofisticação, cômodos amplos,
+          paisagismo e design arrojado.
+        </p>
+        <p>
+          São 25 unidades inovadoras no bairro do Botafogo, sendo 22
+          apartamentos tipo, 2 coberturas duplex e 1 cobertura linear. Os
+          apartamentos tipo têm de 109 m² a 133 m², com 4 quartos, suítes e
+          vagas na garagem. coberturas duplex com mais de 200 m² de área total e
+          coberturas lineares de 262 m².
+        </p>
+
+        <a href="<?= $whatsapp ?>" class="btn">Fale pelo whatsapp</a>
+      </div>
+    </div>
+    <!-- unidades -->
+    <section class="unidades">
+      <div class="container pd">
+        <div class="item">
+          <h2>APARTAMENTOS</h2>
+          <h3>109m² a 133m²</h3>
+          <p>até 4 quartos</p>
+        </div>
+
+        <div class="item">
+          <h2>COBERTURA DUPLEX</h2>
+          <h3>219,39m²</h3>
+          <p>até 5 suítes</p>
+        </div>
+
+        <div class="item">
+          <h2>COBERTURA LINEAR</h2>
+          <h3>262,79m²</h3>
+          <p>até 5 suítes</p>
+        </div>
+      </div>
+    </section>
+    <!-- na midia -->
+    <section class="na_midia container pd grid" id="na-midia">
+      <div class="content">
+        <h2 class="titulo">We Botafogo na mídia</h2>
+
+        <p>
+          Um condomínio residencial sofisticado, projetado por uma das
+          construtoras mais conceituadas do Rio de Janeiro. O
+          <strong>We Sorocaba </strong> oferece conforto e segurança.
+        </p>
+        <p>
+          São 25 unidades com ventilação e iluminação natural. Um projeto
+          inovador em um bairro imponente e com localização privilegiada.
+          Acompanhe o <strong>We Gafisa</strong> nas redes sociais:
+        </p>
+
+        <div class="redes">
+          <div>
+            <a href=""
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="60"
+                height="60"
+                fill="none"
+                viewBox="0 0 60 60"
+              >
+                <rect width="60" height="60" fill="#333" rx="30" />
+                <path
+                  fill="#fff"
+                  d="M30 10c-5.427 0-6.11.025-8.242.12-2.133.1-3.585.435-4.858.93a9.792 9.792 0 00-3.542 2.307A9.818 9.818 0 0011.05 16.9c-.495 1.27-.833 2.725-.93 4.85-.095 2.137-.12 2.817-.12 8.253 0 5.43.025 6.11.12 8.242.1 2.13.435 3.583.93 4.855a9.823 9.823 0 002.307 3.542 9.76 9.76 0 003.54 2.308c1.276.495 2.726.832 4.856.93 2.134.095 2.814.12 8.247.12 5.432 0 6.11-.025 8.245-.12 2.128-.1 3.585-.435 4.858-.93a9.79 9.79 0 003.54-2.308A9.823 9.823 0 0048.95 43.1c.492-1.273.83-2.725.93-4.855.095-2.133.12-2.813.12-8.245 0-5.433-.025-6.113-.12-8.247-.1-2.128-.438-3.583-.93-4.853a9.815 9.815 0 00-2.308-3.542A9.777 9.777 0 0043.1 11.05c-1.275-.495-2.73-.833-4.858-.93-2.134-.095-2.812-.12-8.247-.12h.008H30zm-1.793 3.605h1.796c5.34 0 5.972.018 8.08.115 1.95.087 3.01.415 3.715.688.932.362 1.6.797 2.3 1.497.7.7 1.132 1.365 1.495 2.3.274.703.6 1.763.687 3.713.097 2.107.117 2.74.117 8.077 0 5.338-.02 5.973-.117 8.08-.087 1.95-.415 3.008-.688 3.712a6.174 6.174 0 01-1.497 2.298c-.7.7-1.365 1.133-2.3 1.495-.7.275-1.76.6-3.712.69-2.108.095-2.74.117-8.08.117s-5.976-.022-8.083-.117c-1.95-.09-3.008-.415-3.713-.69a6.195 6.195 0 01-2.3-1.495 6.2 6.2 0 01-1.5-2.3c-.272-.702-.6-1.762-.687-3.712-.095-2.108-.115-2.74-.115-8.083 0-5.34.02-5.97.115-8.077.09-1.95.415-3.01.69-3.715.363-.933.797-1.6 1.498-2.3.7-.7 1.365-1.133 2.3-1.495.705-.276 1.762-.6 3.712-.69 1.845-.085 2.56-.11 6.287-.113v.005zm12.47 3.32a2.4 2.4 0 100 4.8 2.4 2.4 0 000-4.8zM30.004 19.73a10.27 10.27 0 00-9.636 14.24 10.271 10.271 0 0016.795 3.238 10.272 10.272 0 00-7.16-17.478zm0 3.602a6.668 6.668 0 110 13.336 6.668 6.668 0 010-13.335z"
+                />
+              </svg>
+            </a>
+            <a href=""
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="60"
+                height="60"
+                fill="none"
+                viewBox="0 0 60 60"
+              >
+                <rect width="60" height="60" fill="#333" rx="30" />
+                <path
+                  fill="#fff"
+                  d="M27.39 23.874v2.754h-2.016v3.366h2.016V40h4.144V29.994h2.78s.262-1.614.388-3.38H31.55v-2.3c0-.346.452-.808.9-.808h2.256V20h-3.07c-4.348 0-4.246 3.37-4.246 3.874z"
+                />
+                <path
+                  fill="#fff"
+                  d="M18 14a4 4 0 00-4 4v24a4 4 0 004 4h24a4 4 0 004-4V18a4 4 0 00-4-4H18zm0-4h24a8 8 0 018 8v24a8 8 0 01-8 8H18a8 8 0 01-8-8V18a8 8 0 018-8z"
+                />
+              </svg>
+            </a>
+            <a href=""
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="60"
+                height="60"
+                fill="none"
+                viewBox="0 0 60 60"
+              >
+                <rect width="60" height="60" fill="#333" rx="30" />
+                <path
+                  fill="#fff"
+                  d="M35.846 23.052H24.154c-2.294 0-4.154 1.84-4.154 4.108v5.78c0 2.27 1.86 4.108 4.154 4.108h11.692c2.294 0 4.154-1.84 4.154-4.108v-5.78c0-2.27-1.86-4.108-4.154-4.108zm-2.808 7.28l-5.47 2.58a.22.22 0 01-.314-.198v-5.32a.22.22 0 01.32-.194l5.468 2.74a.22.22 0 01-.004.392z"
+                />
+                <path
+                  fill="#fff"
+                  d="M18 14a4 4 0 00-4 4v24a4 4 0 004 4h24a4 4 0 004-4V18a4 4 0 00-4-4H18zm0-4h24a8 8 0 018 8v24a8 8 0 01-8 8H18a8 8 0 01-8-8V18a8 8 0 018-8z"
+                />
+              </svg>
+            </a>
+          </div>
+
+          <a href="<?= $whatsapp ?>" class="btn">Fale pelo whatsapp</a>
+        </div>
+      </div>
+      <iframe
+        class="video"
+        width="1280"
+        height="753"
+        src="https://www.youtube.com/embed/U39A7Jx7n-M"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </section>
+    <!-- contato -->
+    <section class="contato pd">
+      <div class="container">
+        <div class="contetnt">
+          <h2 class="titulo">Tire suas dúvidas com o incorporador</h2>
+          <p>
+            Caso tenha alguma dúvida sobre o <strong>We Botafogo</strong> ou
+            queira agendar uma visita, clique no botão a seguir e converse com o
+            incorporador.
+          </p>
+        </div>
+        <a href="<?= $whatsapp ?>" class="btn btn_light"
+          >Falar com o incorporador</a
+        >
+      </div>
+    </section>
+    <!-- unidades -->
+    <section class="unidades_venda container pd grid">
+      <div class="blocos">
+        <a href="" class="bloco"> Link 1</a>
+        <a href="" class="bloco"> Link 2</a>
+        <a href="" class="bloco"> Link 3</a>
+        <a href="" class="bloco"> Link 4</a>
+      </div>
+      <div class="content">
+        <h2 class="titulo">Unidades We Gafisa</h2>
+
+        <p>
+          são 25 unidades, sendo 22 apartamentos tipo, 2 coberturas duplex e 1
+          cobertura linear. Localização privilegiada perto das praias do
+          Flamengo e de Botafogo.
+        </p>
+        <p>
+          Piscina adulto, piscina infantil, salão de festas, churrasqueira, sala
+          de jogos, brinquedoteca, pete place são apenas alguns dos diferenciais
+          do residencial.
+        </p>
+        <a href="<?= $whatsapp ?>" class="btn">Falar com um especialista</a>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <img src="assets/img/logobranco.svg" alt="We botafogo" />
+
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="#na-midia">Na mídia</a></li>
+            <li><a href="pivacidade.html">Privacidade</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+    <div class="copy">
+      <span>© 2020 Lançamentos RJ. Todos os direitos reservados. </span>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
